@@ -1,3 +1,10 @@
+'useClient';
+import { Header } from '@/components/customs/Header';
+
 export default function Home() {
-  return <main>SLAYER</main>;
+  return (
+    <main>
+      <Header />
+    </main>
+  );
 }
