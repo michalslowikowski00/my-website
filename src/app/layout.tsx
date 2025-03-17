@@ -2,6 +2,8 @@ import type { Metadata } from 'next';
 import { Geist, Geist_Mono } from 'next/font/google';
 import './globals.css';
 import { Header } from '@/components/customs/Header';
+import PageTransition from '@/components/customs/PageTransition';
+import StairTransition from '@/components/customs/StairTransition';
 
 const geistSans = Geist({
   variable: '--font-geist-sans',
@@ -27,7 +29,8 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
         <Header />
-        {children}
+        <StairTransition />
+        <PageTransition>{children}</PageTransition>
       </body>
     </html>
   );
