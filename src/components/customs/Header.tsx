@@ -23,6 +23,7 @@ export const Header = () => {
             <Nav />
             <Link href="/">
               <Button className="bg-emerald-600 ml-6">Hire me</Button>
+              <Button className="bg-emerald-600 ml-6">Get my resume</Button>
             </Link>
           </div>
         </div>
