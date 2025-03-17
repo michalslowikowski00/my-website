@@ -1,5 +1,5 @@
 const Resume = () => {
-  return <div>PAGE CONTENT</div>;
+  return <div className="text-white">RESUME CONTENT</div>;
 };
 
 export default Resume;
