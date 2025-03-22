@@ -17,7 +17,7 @@ export const Photo = () => {
           animate={{ opacity: 1, transition: { delay: 2.4, duration: 0.4, ease: 'easeInOut' } }}
         >
           <Image
-            src="/assets/img.png"
+            src="/assets/img1.png"
             priority
             alt={'guitar'}
             quality={100}
@@ -31,9 +31,9 @@ export const Photo = () => {
           viewBox="0 0 503 503"
         >
           <motion.circle
-            cx="250"
-            cy="250"
-            r="245"
+            cx="244"
+            cy="244"
+            r="240"
             stroke="#00ff99"
             strokeWidth="4"
             strokeLinecap="round"
