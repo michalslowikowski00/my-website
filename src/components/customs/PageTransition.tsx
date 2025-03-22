@@ -20,7 +20,7 @@ const PageTransition: FC<PageTransitionProps> = ({ children }) => {
             opacity: 0,
             transition: { delay: 1, duration: 0.4, ease: 'easeInOut' },
           }}
-          className="h-screen w-screen fixed bg-slate-800 top-0 pointer-events-none"
+          className="h-screen w-screen fixed bg-emerald-600 top-0 pointer-events-none"
         />
         {children}
       </div>
