@@ -42,7 +42,7 @@ export const Photo = () => {
               strokeDasharray: '24 10 0 0',
             }}
             animate={{
-              strokeDasharray: [],
+              strokeDasharray: ['15 120 25 25', '16 25 92 72', '4 250 22 22'],
               rotate: [120, 360],
             }}
             transition={{
