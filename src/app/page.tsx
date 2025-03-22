@@ -1,6 +1,6 @@
+import { Socials } from '@/components/customs/Socials';
 import { Button } from '@/components/ui/button';
 import { FiDownload } from 'react-icons/fi';
-import { FaGithub } from 'react-icons/fa';
 
 const Home = () => {
   return (
@@ -10,7 +10,6 @@ const Home = () => {
           {/* Header withe Hello */}
           <div className="text-center xl:text-left">
             <span className="text-white text-xl">Software Developer</span>
-
             <h1 className="h1">
               Hello, I&apos;am Michał <br />
               <span className="text-emerald-600"> and good to see you</span>
@@ -22,15 +21,13 @@ const Home = () => {
               laboriosam veniam et natus magnam. Inventore ipsa commodi quam officia. Animi ut illo
               quibusdam.
             </p>
-            <div className="flex xl:flex-row items-center gap-8">
+            <div className="flex items-center gap-8">
               <Button variant="outline" size="lg" className="flex">
                 <span>Get my resume!</span>
                 <FiDownload className="text-xl" />
               </Button>
-              <div>
-                <FaGithub className="text-xl" />
-                <FaGithub className="text-xl" />
-                <FaGithub className="text-xl" />
+              <div className="flex gap-8">
+                <Socials />
               </div>
             </div>
           </div>
