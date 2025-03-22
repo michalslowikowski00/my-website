@@ -1,3 +1,4 @@
+import { Photo } from '@/components/customs/Photo';
 import { Socials } from '@/components/customs/Socials';
 import { Button } from '@/components/ui/button';
 import { FiDownload } from 'react-icons/fi';
@@ -22,20 +23,18 @@ const Home = () => {
               quibusdam.
             </p>
             <div className="flex items-center gap-8">
-              <Button variant="outline" size="lg" className="flex">
+              <Button
+                variant="outline"
+                size="lg"
+                className="flex rounded-full hover:bg-white hover:text-emerald-600 hover:transition-all duration-500"
+              >
                 <span>Get my resume!</span>
                 <FiDownload className="text-xl" />
               </Button>
-              <div className="flex gap-8">
-                <Socials />
-              </div>
+              <Socials />
             </div>
           </div>
-          {/* IMAGE */}
-          <div className="flex items-center rounded-xl">
-            <img src="https://www.w3schools.com/tags/img_girl.jpg" alt="" className="rounded-xl" />
-          </div>
-          {/* SOCIALS */}
+          <Photo />
         </div>
       </div>
     </section>
