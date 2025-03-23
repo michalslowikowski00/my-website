@@ -1,5 +1,6 @@
 import { Photo } from '@/components/customs/Photo';
 import { Socials } from '@/components/customs/Socials';
+import { Stats } from '@/components/customs/Stats';
 import { Button } from '@/components/ui/button';
 import { FiDownload } from 'react-icons/fi';
 
@@ -37,6 +38,7 @@ const Home = () => {
           <Photo />
         </div>
       </div>
+      <Stats />
     </section>
   );
 };
