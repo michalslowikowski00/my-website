@@ -29,7 +29,7 @@ export const Stats = () => {
                 />
                 <p
                   className={`${stat.text.length < 15 ? 'max-w-[100px]' : 'max-w-[150px]'} 
-              leading-snug text-white/70 text-xl`}
+              leading-7 text-white/70 text-xl`}
                 >
                   {stat.text}
                 </p>

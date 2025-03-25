@@ -2,12 +2,18 @@ import Link from 'next/link';
 import { FaGithub, FaLinkedin, FaYoutube } from 'react-icons/fa';
 
 const socials = [
-  { icon: <FaGithub className="text-xl" />, path: 'https://github.com/michalslowikowski00' },
+  {
+    icon: <FaGithub className="text-xl" />,
+    path: 'https://github.com/michalslowikowski00',
+  },
   {
     icon: <FaLinkedin className="text-xl" />,
     path: 'https://www.linkedin.com/in/michal-slowikowski/',
   },
-  { icon: <FaYoutube className="text-xl" />, path: 'https://www.youtube.com/watch?v=tHyfAwEmzxE' },
+  {
+    icon: <FaYoutube className="text-xl" />,
+    path: 'https://www.youtube.com/watch?v=tHyfAwEmzxE',
+  },
 ];
 
 export const Socials = () => {
