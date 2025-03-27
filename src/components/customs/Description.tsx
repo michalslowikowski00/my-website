@@ -3,6 +3,7 @@ import { Button } from '../ui/button';
 import { Socials } from './Socials';
 
 const personDescription = `I am software developer with more than 5 years of expirience.
+
 My journey with programming started over 10 years ago as a software tester. 
 Now I work as fullstack enginner in Snowflake, 
 but I fall in love with React and this is what I want to do the most.`;

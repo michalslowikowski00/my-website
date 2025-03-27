@@ -1,15 +1,23 @@
 module.exports = {
   purge: [],
-  darkMode: false, // or 'media' or 'class'
+  darkMode: false,
   theme: {
     container: {
       center: true,
-      padding: "15px",
+      padding: '15px',
     },
   },
   extend: {},
   variants: {
-    extend: {},
+    extend: {
+      colors: {
+        primary: '#1c1c22',
+        accent: {
+          DEFAULT: '#00ff99',
+          hover: '#00e187',
+        },
+      },
+    },
   },
   plugins: [],
 };
