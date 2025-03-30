@@ -115,32 +115,27 @@ const expirience = {
     {
       company: 'Snowflake',
       position: 'Full Stack Engineer',
-      duration: '2020 - present',
+      duration: '2021 - present',
     },
     {
-      company: 'Snowflake',
-      position: 'Full Stack Engineer',
-      duration: '2020 - present',
+      company: 'Polidea',
+      position: 'Junior Software Engineer',
+      duration: '2020 - 2021',
     },
     {
-      company: 'Snowflake',
-      position: 'Full Stack Engineer',
-      duration: '2020 - present',
+      company: 'Polidea',
+      position: 'Automation Test Engineer',
+      duration: '2018 - 2020',
     },
     {
-      company: 'Snowflake',
+      company: 'GOG (CD PROJEKT)',
       position: 'Full Stack Engineer',
-      duration: '2020 - present',
+      duration: '2017 - 2018',
     },
     {
-      company: 'Snowflake',
+      company: 'SeaChange',
       position: 'Full Stack Engineer',
-      duration: '2020 - present',
-    },
-    {
-      company: 'Snowflake',
-      position: 'Full Stack Engineer',
-      duration: '2020 - present',
+      duration: '2016 - 2017',
     },
   ],
 };
