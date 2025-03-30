@@ -7,7 +7,6 @@ module.exports = {
       padding: '15px',
     },
   },
-  extend: {},
   variants: {
     extend: {
       colors: {
