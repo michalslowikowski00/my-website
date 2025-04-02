@@ -2,7 +2,7 @@
 
 import { Exp } from '@/components/customs/Exp';
 import { Skills } from '@/components/customs/Skills';
-import { AboutMe } from '@/components/customs/about';
+import { AboutMe } from '@/components/customs/About';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { motion } from 'framer-motion';
 
