@@ -1,5 +1,12 @@
+import { TabsContent } from '../ui/tabs';
+
 export const AboutMe = () => {
-  return <div></div>;
+  return (
+    <TabsContent
+      value="about me"
+      className="w-full"
+    ></TabsContent>
+  );
 };
 
 const aboutMe = {

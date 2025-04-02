@@ -26,20 +26,10 @@ const Resume = () => {
             <TabsTrigger value="skills">skills</TabsTrigger>
             <TabsTrigger value="about me">about me</TabsTrigger>
           </TabsList>
-
-          {/* TABS CONTENT */}
           <div className="min-h-[70vh] w-full">
-            {/* EXP */}
             <Exp />
-            {/* SKILL */}
             <Skills />
-            {/* ABOUT */}
-            <TabsContent
-              value="about me"
-              className="w-full"
-            >
-              <AboutMe />
-            </TabsContent>
+            <AboutMe />
           </div>
         </Tabs>
       </div>

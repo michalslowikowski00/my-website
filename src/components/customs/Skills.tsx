@@ -1,10 +1,22 @@
 import { FaPython, FaReact } from 'react-icons/fa';
 import { RiTailwindCssFill, RiNextjsFill } from 'react-icons/ri';
-import { SiTypescript, SiKotlin, SiJest, SiPytest, SiSelenium, SiCypress } from 'react-icons/si';
+import {
+  SiTypescript,
+  SiKotlin,
+  SiJest,
+  SiPytest,
+  SiSelenium,
+  SiCypress,
+} from 'react-icons/si';
 import { TbSql } from 'react-icons/tb';
 import { ScrollArea } from '../ui/scroll-area';
 import { TabsContent } from '../ui/tabs';
-import { Tooltip, TooltipProvider, TooltipTrigger } from '../ui/tooltip';
+import {
+  Tooltip,
+  TooltipContent,
+  TooltipProvider,
+  TooltipTrigger,
+} from '../ui/tooltip';
 
 export const Skills = () => {
   return (
@@ -25,9 +37,14 @@ export const Skills = () => {
                 <li key={index}>
                   <TooltipProvider>
                     <Tooltip>
-                      <TooltipTrigger className="text-5xl">
-                        {item.icon}
+                      <TooltipTrigger className="w-full h-[120px] flex items-center align-center justify-center rounded-xl bg-[#232329] group ">
+                        <div className="text-6xl group-hover:text-emerald-600 transition delay-150 duration-300 ease-in-out hover:-translate-y-1 hover:scale-150">
+                          {item.icon}
+                        </div>
                       </TooltipTrigger>
+                      <TooltipContent className="capitalize">
+                        {item.skill}
+                      </TooltipContent>
                     </Tooltip>
                   </TooltipProvider>
                 </li>
