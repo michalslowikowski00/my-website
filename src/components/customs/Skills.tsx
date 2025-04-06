@@ -59,7 +59,7 @@ export const Skills = () => {
 
 const skillSet = {
   title: 'Skill set',
-  description: 'This thigs I know, well or enough',
+  description: 'This things I know, you know...',
   items: [
     {
       skill: 'typesctipt',

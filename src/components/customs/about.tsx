@@ -19,7 +19,7 @@ export const AboutMe = () => {
       <div className="flex flex-col gap-[30px] text-center xl:text-left">
         <h3 className="text-4xl font-bold">What&apos;s up?</h3>
         <p className="max-w-[600px] text-2xl text-white/60 mx-auto xl:mx-0">
-          Here you can see what I do in the free time
+          Here you can see what I do in the free time...
         </p>
       </div>
       <div className="mx-10 py-11 max-w-lg w-full">
