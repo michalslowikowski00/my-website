@@ -1,4 +1,6 @@
+import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
+import { Textarea } from '@/components/ui/textarea';
 
 const Contact = () => {
   return (
@@ -13,7 +15,7 @@ const Contact = () => {
               Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
               eiusmod tempor incididunt ut labore et dolore magna aliqua
             </p>
-            <div className="grid grid-cols-1 gap-6">
+            <div className="grid grid-cols-2 gap-6">
               <Input
                 type="firstname"
                 placeholder="Firstname"
@@ -31,8 +33,16 @@ const Contact = () => {
                 placeholder="Phone number"
               />
             </div>
+            <Textarea
+              className="h-[200px]"
+              placeholder="Type your message here."
+            />
+            <Button className="bg-emerald-600 rounded-xl max-w-20">
+              Sumbit
+            </Button>
           </form>
         </div>
+
         <div>contact data</div>
       </div>
     </div>
